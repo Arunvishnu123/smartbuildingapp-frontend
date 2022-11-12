@@ -4,12 +4,12 @@
         <w-image class="image-buildings" src="https://www.synox.io/wp-content/uploads/2021/08/smart-building-iot.jpg">
         </w-image>
         <w-image class="image-buildings" src="https://www.synox.io/wp-content/uploads/2021/08/smart-building-iot.jpg">
-        </w-image>     
+        </w-image>
     </div>
 
-    <w-tag class="image-outline"  bg-color="primary" color="white" xl  height="3em">
-            No building is added
-        </w-tag>
+    <w-tag class="image-outline" bg-color="primary" color="white" xl height="3em">
+        No building is added
+    </w-tag>
 </div>
 </template>
 
@@ -20,10 +20,11 @@ export default {
 </script>
 
 <style scoped>
-.main-content{
-    padding:0;
-    margin:0;
+.main-content {
+    padding: 0;
+    margin: 0;
 }
+
 .image-content {
     width: 100%;
     background-color: #383838;
@@ -36,7 +37,7 @@ export default {
     display: block;
 }
 
-.image-outline{
+.image-outline {
     width: 100%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

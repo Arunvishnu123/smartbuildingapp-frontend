@@ -3,24 +3,22 @@
     <w-app>
         <HeaderComponentVue />
         <!-- <NoRoomAddedComponentVue /> -->
-      
-
-        <w-grid  :columns="{ xs: 1, sm: 2, md: 3, lg: 4, xl: 6 }" gap="0" class="wrapper">
-        <div class="room-display">
-            <RoomDataDisplayVue />  
-             <RoomDataDisplayVue />  
-              <RoomDataDisplayVue />  
-               <RoomDataDisplayVue />
-        </div>
-      </w-grid>
+        <w-grid :columns="{ xs: 1, sm: 2, md: 3, lg: 4, xl: 6 }" gap="0" class="wrapper">
+            <div class="room-display">
+                <RoomDataDisplayVue />
+                <RoomDataDisplayVue />
+                <RoomDataDisplayVue />
+                <RoomDataDisplayVue />
+            </div>
+        </w-grid>
     </w-app>
 </div>
 </template>
 
 <script>
-import HeaderComponentVue from "../components/HeaderComponent.vue";
-import NoRoomAddedComponentVue from "../components/NoRoomAddedComponent.vue";
-import RoomDataDisplayVue from "../components/RoomDataDisplay.vue"
+import HeaderComponentVue from "../components/Header/HeaderComponent.vue";
+import NoRoomAddedComponentVue from "../components/Room/NoRoomAddedComponent.vue";
+import RoomDataDisplayVue from "../components/Room/RoomDataDisplay.vue"
 export default {
     components: {
         HeaderComponentVue,
@@ -32,11 +30,11 @@ export default {
 </script>
 
 <style scoped>
-.room-display{
+.room-display {
     display: contents;
-  align-content: center;
-  text-align: justify;
-  text-align: center;
-  align-items: center;
+    align-content: center;
+    text-align: justify;
+    text-align: center;
+    align-items: center;
 }
 </style>
