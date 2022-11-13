@@ -1,41 +1,43 @@
 <template>
+<div class="building-data-contents">
+    <w-tag class="building-name" bg-color="primary" color="white" xl>
+        Building ID - 1
+    </w-tag>
 
-    <div class="building-data-contents">
-        <w-tag class="building-name" bg-color="primary" color="white" xl>
-            Building ID - 1
-        </w-tag>
+    <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
+        Building Name - Mines
+    </w-tag>
 
-        <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
-            Building Name - Mines
-        </w-tag>
+    <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
+        Building Address - Saint-Etienne
+    </w-tag>
+    <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
+        Building Size - 565 M2
+    </w-tag>
+    <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
+        Building Age - 50 years
+    </w-tag>
+    <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
+        Number of Storeys - 9
+    </w-tag>
+    <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
+        Building Owner - Test
+    </w-tag>
 
-        <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
-            Building Address - Saint-Etienne
-        </w-tag>
-        <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
-            Building Size - 565 M2
-        </w-tag>
-        <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
-            Building Age - 50 years
-        </w-tag>
-        <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
-            Number of Storeys - 9
-        </w-tag>
-        <w-tag class="building-name" bg-color="grey-dark5" color="white" xl>
-            Building Owner - Test
-        </w-tag>
-
-        <w-button class="room-menu" bg-color="primary" route="https://github.com/antoniandre/wave-ui">
-            Go to rooms
-            <w-icon class="ml2" sm> fa fa-building </w-icon>
-        </w-button>
-    </div>
-
+    <w-button @click="goToRoom" class="room-menu" bg-color="primary">
+        Go to rooms
+        <w-icon class="ml2" sm> fa fa-building </w-icon>
+    </w-button>
+</div>
 </template>
 
 <script>
 export default {
-
+    methods: {
+        goToRoom() {
+            this.$router.push("/room");
+        },
+    }
 }
 </script>
 

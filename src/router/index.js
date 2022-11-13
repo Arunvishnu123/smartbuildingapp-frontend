@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Building from  "../views/Building.vue"
 import Room from "../views/Room.vue"
+import Heater from "../views/Heater.vue"
+import Window from "../views/Window.vue"
 
 const routes = [
   {
@@ -14,7 +16,17 @@ const routes = [
     name: "Room",
     component: Room
   },
+  {
+    path: "/room/heater",
+    name: "Heater",
+    component: Heater
+  },
 
+  {
+    path: "/room/window",
+    name: "Window",
+    component: Window
+  },
 ]
 
 const router = createRouter({

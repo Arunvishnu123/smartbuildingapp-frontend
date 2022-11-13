@@ -10,19 +10,19 @@
         <w-tag class="room-name" bg-color="grey-dark5" color="white" xl>
             Temperature
         </w-tag>
-        <vue3-slider v-model="someValue" color="#FB278D" track-color="#FEFEFE" />
+        <vue3-slider disabled v-model="someValue" color="#FB278D" track-color="#FEFEFE" />
         <w-tag class="temp-value" bg-color="grey-dark5" color="white" xl>
             {{someValue}} <br> <span>&#8451;</span>
         </w-tag>
     </div>
 
     <div class="buttons">
-        <w-button class="heater-button ma1" bg-color="primary" route="/getting-started" target="_blank">
+        <w-button class="heater-button ma1" bg-color="primary" @click="goToHeater()" target="_blank">
             Heater lists
             <w-icon class="ml1">fa fa-thermometer-empty </w-icon>
         </w-button>
 
-        <w-button class="window-button ma1" bg-color="primary" route="/getting-started" target="_blank">
+        <w-button class="window-button ma1" bg-color="primary" @click="goToWindow()" route="/getting-started" target="_blank">
             Window Lists
             <w-icon class="ml1">fa fa-window-maximize</w-icon>
         </w-button>
@@ -39,6 +39,17 @@ export default {
     }),
     components: {
         "vue3-slider": slider
+    },
+    methods:{
+        goToHeater(){
+            this.$router.push("/room/heater");
+        },
+
+        goToWindow(){
+            this.$router.push("/room/window");
+        }
+
+
     }
 }
 </script>
