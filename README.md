@@ -35,32 +35,57 @@ Already defined the port number in the vue.config.js file
 
 # Some images of the developed screen and functions
 
-
+## Add new building 
 ![ScreenShot](images/a.PNG)
+
+## Display added buildings and notifaction to comfirm 
 
 ![ScreenShot](images/b.PNG)
 
+## Display four added buildings
+
 ![ScreenShot](images/c.PNG)
+
+## Navigate to rooms and add new rooms for a selected building 
 
 ![ScreenShot](images/d.PNG)
 
+## Add new room dialog box
+
 ![ScreenShot](images/e.PNG)
+
+## navigate to heater menu and add new heater and also show the notification when new heater is added 
 
 ![ScreenShot](images/f.PNG)
 
+## edit added heater 
+
 ![ScreenShot](images/h.PNG)
+
+## confirmation dialog box to delete the selected heater
 
 ![ScreenShot](images/i.PNG)
 
+## Confirmation dialog box to change heater status
+
 ![ScreenShot](images/j.PNG)
+
+## Dialog box to add new window
 
 ![ScreenShot](images/k.PNG)
 
+## Display the windows
+
 ![ScreenShot](images/l.PNG)
 
+## dialog box to edit windows
+
 ![ScreenShot](images/m.PNG)
+## confirmation dialog box to delete windows 
 
 ![ScreenShot](images/n.PNG)
-
+## confirmation dialog box to change window status
 ![ScreenShot](images/p.PNG)
+
+More more information about the feature , we requested to see the small vedio demo of the app.
 
