@@ -4,7 +4,7 @@ We have four entitie and created under the order Building, Rooms, Heater and Win
 
 - Also, I attached a vedio which explains the functionalities we implemented for your reference.Please check the "appdemovedio" folder for the vedios explanantion.
 
-# Group Member Name
+# Group Members Name
 
 - [ ] Arun Raveendran Nair Sheela
 - [ ] Sivaratnam PACHAVA
