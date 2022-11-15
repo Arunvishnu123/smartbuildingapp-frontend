@@ -2,7 +2,7 @@
 
 We have four entitie and created under the order Building, Rooms, Heater and Window respectively. 
 
-- Also, I attached a vedio which explains the functionalities we implemented for your reference.
+- Also, I attached a vedio which explains the functionalities we implemented for your reference.Please check the "appdemovedio" folder for the vedios explanantion.
 
 ## Procedure to run the application 
 
